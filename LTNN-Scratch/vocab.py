@@ -3,6 +3,9 @@ import unittest
 
 from typing import List, Optional
 
+"""
+File from: https://github.com/jsbaan/transformer-from-scratch/blob/main/vocabulary.py
+"""
 
 class Vocabulary:
     BOS = "BOS"
