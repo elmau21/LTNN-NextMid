@@ -8,6 +8,10 @@ from torch.nn import functional as F
 from utils import construct_future_mask
 
 
+"""
+File from: https://github.com/jsbaan/transformer-from-scratch/blob/main/multi_head_attention.py
+"""
+
 class MultiHeadAttention(nn.Module):
     def __init__(self, hidden_dim: int, num_heads: int):
         super().__init__()
