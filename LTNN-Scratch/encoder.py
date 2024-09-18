@@ -10,6 +10,9 @@ from multi_head_attention import MultiHeadAttention
 from positional_encodings import SinusoidEncoding
 from vocabulary import Vocabulary
 
+"""
+Copied from: https://github.com/jsbaan/transformer-from-scratch/blob/main/encoder.py
+"""
 
 class TransformerEncoder(nn.Module):
     def __init__(
