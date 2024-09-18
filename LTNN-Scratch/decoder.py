@@ -12,6 +12,9 @@ from multi_head_attention import MultiHeadAttention
 from positional_encodings import SinusoidEncoding
 from utils import construct_future_mask
 
+"""
+Copied from: https://github.com/jsbaan/transformer-from-scratch/blob/main/decoder.py
+"""
 
 class TransformerDecoder(nn.Module):
     def __init__(
